@@ -1,0 +1,21 @@
+nav.navbarTop{
+    background: #23282d;
+    //height: 60px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    button{
+        width: 15%;
+    }
+    .menu_link{
+        display: inline-block;
+        color: RGBA(35, 40, 45, 1);
+        text-decoration: none;
+        font-size: 12px;
+        margin: 0;
+        padding: 5px 0;
+        width: 100%;
+    }
+}

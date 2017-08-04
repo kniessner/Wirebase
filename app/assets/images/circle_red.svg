@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="323px" height="323px" viewBox="0 0 323 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="55.8551455%" id="radialGradient-1">
+            <stop stop-color="#020202" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="0.25781251%" y1="49.7500002%" x2="173.669677%" y2="49.7500002%" id="linearGradient-2">
+            <stop stop-color="#DC0F79" offset="0%"></stop>
+            <stop stop-color="#B4EC51" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="169.346819" cy="170.058499" r="161.134519"></circle>
+        <filter x="-46.7%" y="-46.7%" width="193.4%" height="193.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="50" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="200" dy="10" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.819607843   0 0 0 0 0.301960784   0 0 0 0 0.305882353  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="10" dy="20" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="322.269038" height="322.269038" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-dasharray="100,10,1,10">
+        <g id="Desktop-HD" transform="translate(-48.000000, -220.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(40.000000, 211.412210)">
+                <g id="Oval-2" transform="translate(169.346819, 170.058499) rotate(-3.000000) translate(-169.346819, -170.058499) ">
+                    <use fill="url(#radialGradient-1)" fill-rule="evenodd" style="mix-blend-mode: darken;" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="url(#linearGradient-2)" mask="url(#mask-5)" stroke-width="200" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

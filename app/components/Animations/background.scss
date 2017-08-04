@@ -1,0 +1,78 @@
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg_element{
+  position: absolute;
+  margin: 0 auto;
+  opacity: 0.4;
+  &.round {
+    border-radius: 400px;
+  }
+}
+
+
+.small{
+  height: 100px;
+}
+.middle{
+  height: 300px;
+}
+.big{
+  width: 100%;
+  top: 40vh;
+}
+.full{
+      width: 120%;
+ }
+.large{
+      width: 200%;
+}
+.right{
+  left: 0;
+}
+.top{
+  top: 0;
+}
+.left{
+  left: 0;
+}
+@mixin sexy-border($color, $width: 1in) {
+  border: {
+    color: $color;
+    width: $width;
+    style: dashed;
+  }
+}
+
+.rotate{
+  &.s_x3{
+    -webkit-animation: rotation 700s infinite linear;
+    animation: rotation 700s infinite linear;
+  }
+  &.s_x2{
+    -webkit-animation: rotation 500s infinite linear;
+  }
+  &.s_x1{
+    -webkit-animation: rotation 400s infinite linear;
+  }
+  &.reverse{
+    -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+    animation-direction: reverse;
+  }
+}
+
+
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}

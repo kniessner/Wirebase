@@ -1,0 +1,35 @@
+@import "../../../node_modules/normalize-scss/sass/normalize/import-now";
+@import "./helper";
+@import "./logo";
+@import "./buttons";
+@import "./typography";
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+body {
+  background: #485563; /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(left, #485563, #29323c);
+  background: -o-linear-gradient(left, #485563, #29323c);
+  background: linear-gradient(to right, #485563, #29323c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 13px;
+  color: RGBA(241, 241, 241, 1.00);
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="770px" height="770px" viewBox="0 0 770 770" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="31.6283306%" gradientTransform="translate(0.500000,0.500000),rotate(86.129571),scale(1.000000,2.801666),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#007996" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="97.9251391%" x2="50%" y2="97.9251391%" id="linearGradient-2">
+            <stop stop-color="#00FFDD" offset="0%"></stop>
+            <stop stop-color="#76B3B0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="72.2570071%" y2="94.2443238%" id="linearGradient-3">
+            <stop stop-color="#101010" offset="0%"></stop>
+            <stop stop-color="#007996" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-4" cx="404.078781" cy="404.078781" r="384.334379"></circle>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="768.668757" height="768.668757" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="768.668757" height="768.668757" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="55.8551455%" id="radialGradient-7">
+            <stop stop-color="#020202" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="55.8337872%" y1="-1.78810074%" x2="50.1938108%" y2="96.6183828%" id="linearGradient-8">
+            <stop stop-color="#3D3D3D" offset="0%"></stop>
+            <stop stop-color="#00CEFF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-9" cx="404.346819" cy="404.346819" r="161.134519"></circle>
+        <filter x="-46.7%" y="-46.7%" width="193.4%" height="193.4%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="50" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="200" dy="10" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.819607843   0 0 0 0 0.301960784   0 0 0 0 0.305882353  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="10" dy="20" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="322.269038" height="322.269038" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-650.000000, -171.000000)">
+            <g id="Group" transform="translate(631.000000, 152.000000)">
+                <g id="Oval-2" stroke-dasharray="39,1,1" transform="translate(404.078781, 404.078781) rotate(-3.000000) translate(-404.078781, -404.078781) ">
+                    <use fill="url(#radialGradient-1)" fill-rule="evenodd" style="mix-blend-mode: color;" xlink:href="#path-4"></use>
+                    <use stroke="url(#linearGradient-2)" mask="url(#mask-5)" stroke-width="200" xlink:href="#path-4"></use>
+                    <use stroke="url(#linearGradient-3)" mask="url(#mask-6)" stroke-width="38" xlink:href="#path-4"></use>
+                </g>
+                <g id="Oval-2" opacity="0.88048041" style="mix-blend-mode: luminosity;" stroke-linecap="round" stroke-dasharray="100,10,1,10" fill-rule="nonzero" transform="translate(404.346819, 404.346819) rotate(-3.000000) translate(-404.346819, -404.346819) ">
+                    <use fill="url(#radialGradient-7)" fill-rule="evenodd" style="mix-blend-mode: darken;" xlink:href="#path-9"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <use stroke="url(#linearGradient-8)" mask="url(#mask-11)" stroke-width="200" xlink:href="#path-9"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

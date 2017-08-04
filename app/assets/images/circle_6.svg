@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="323px" height="323px" viewBox="0 0 323 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="55.8551455%" id="radialGradient-1">
+            <stop stop-color="#020202" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <path d="M169.779948,322.260509 C80.9097711,326.917997 5.09061775,258.650125 0.433129136,169.779948 C-4.22435948,80.9097711 64.0435129,5.09061775 152.91369,0.433129136 C241.783867,-4.22435948 317.60302,64.0435129 322.260509,152.91369 C326.917997,241.783867 258.650125,317.60302 169.779948,322.260509 Z M163.775145,204.224183 C187.35004,202.988675 205.45969,182.87587 204.224183,159.300975 C202.988675,135.726081 182.87587,117.61643 159.300975,118.851938 C135.726081,120.087446 117.61643,140.200251 118.851938,163.775145 C120.087446,187.35004 140.200251,205.45969 163.775145,204.224183 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="322.277033" height="322.277033" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-dasharray="100,10,1,10">
+        <g id="Group-6" fill-rule="nonzero">
+            <g id="Combined-Shape">
+                <use fill="url(#radialGradient-1)" fill-rule="evenodd" style="mix-blend-mode: darken;" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="38" fill="" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="573px" height="572px" viewBox="0 0 573 572" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="31.6283306%" gradientTransform="translate(0.500000,0.500000),rotate(86.129571),scale(1.000000,2.801666),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#007996" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="97.9251391%" x2="50%" y2="97.9251391%" id="linearGradient-2">
+            <stop stop-color="#00FFDD" offset="0%"></stop>
+            <stop stop-color="#76B3B0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="72.2570071%" y2="94.2443238%" id="linearGradient-3">
+            <stop stop-color="#101010" offset="0%"></stop>
+            <stop stop-color="#007996" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-4" cx="804.405318" cy="339.405318" r="285.837471"></circle>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="571.674943" height="571.674943" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="571.674943" height="571.674943" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="100,1,13">
+        <g id="Desktop-HD" transform="translate(-558.000000, -265.000000)">
+            <g id="Group-2" transform="translate(40.000000, 211.412210)">
+                <g id="Oval-2" transform="translate(804.405318, 339.405318) rotate(-3.000000) translate(-804.405318, -339.405318) ">
+                    <use fill="url(#radialGradient-1)" fill-rule="evenodd" style="mix-blend-mode: color;" xlink:href="#path-4"></use>
+                    <use stroke="url(#linearGradient-2)" mask="url(#mask-5)" stroke-width="200" xlink:href="#path-4"></use>
+                    <use stroke="url(#linearGradient-3)" mask="url(#mask-6)" stroke-width="38" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

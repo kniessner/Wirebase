@@ -1,0 +1,35 @@
+#commander,
+#messenger {
+  width: 300PX;
+  padding: 10px;
+  background: RGBA(235, 240, 245, 0.8);
+  color: #23282D;
+  margin: 10px;
+  float: left;
+  .header{
+    height: 110px;
+  }
+  form {
+    input {
+      width: 100%;
+    }
+  }
+
+  .stream {
+    height: 500px;
+    overflow-x: scroll;
+    padding: 0;
+
+    .list_content {
+      background: rgba(250,250,250,0.8);
+      padding: 20px;
+      margin: 10px 0;
+      list-style: none;
+
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
